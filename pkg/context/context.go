@@ -74,6 +74,7 @@ type QuayRegistryContext struct {
 	// STS/CCO (Cloud Credential Operator)
 	StorageSTSEnabled        bool
 	STSRoleARN               string
+	STSStorageBuckets        []string
 	STSCredentialSecretName  string
 	STSCredentialProvisioned bool
 }
